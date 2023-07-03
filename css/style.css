@@ -71,3 +71,13 @@ header {
 .col-4{
     padding: 1px;
 }
+
+.card{
+    width: 60%;
+    max-width: 520px;
+    background: #eaf8f92d;
+    border-left: 2px solid #00E2F4;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}

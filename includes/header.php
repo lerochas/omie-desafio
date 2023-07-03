@@ -1,5 +1,5 @@
 <div class="container">
     <div class="row">
-        <img src="img/sectionFive.svg">
+        <img src="../img/header.svg">
     </div>
 </div>
