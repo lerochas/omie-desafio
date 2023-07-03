@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row" style="justify-content: center;">
         <img src="img/logos/omie-logo.svg" style="width: 110px; height: 36px; margin-bottom: 20px;">
-        <img src="img/banners/img-teste2.svg" class="banner">
+        <img src="img/banners/banner.svg" class="banner">
     </div>
     <div class="row row-cols-2">
         <div class="col-7">
