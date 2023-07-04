@@ -1,0 +1,21 @@
+# Diretório de dependências gerado pelo Composer
+/vendor/
+
+# Arquivos de configuração que podem conter informações sensíveis
+/config/*.env
+
+# Arquivos de log e cache gerados pela aplicação
+/logs/
+/cache/
+
+# Arquivos de backup
+*.bak
+*.swp
+*.~*
+
+# Arquivos de upload
+/uploads/
+
+# Arquivos de ambiente local
+.env.local
+

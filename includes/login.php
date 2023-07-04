@@ -16,7 +16,7 @@
             <div style="align-self: center;">
                 <div id="g_id_onload"
                     data-client_id="999962858437-h5i64rkppplrmu76r0kkcv39k54r57de.apps.googleusercontent.com"
-                    data-login_uri="http://localhost:3000/omie-iode/login.php"
+                    data-login_uri="http://localhost:3000/login.php"
                     data-auto_prompt="false">
                 </div>
                 <div class="g_id_signin"

@@ -3,8 +3,10 @@
 //AUTOLOAD DE CLASSES DO COMPOSER
 require __DIR__ . '/vendor/autoload.php';
 
-//LOGIN
-include __DIR__ . '/includes/login.php';
+//DEPENDÊNCIAS
+use \App\Session\User as SessionUser;
 
-//IODE
-// include __DIR__ . '/includes/index.php';
+//PÁGINA EXIBIDA A DEPENDER DO LOGIN
+include SessionUser::isLogged() ?
+    __DIR__ . '/includes/index.php' :
+    __DIR__ . '/includes/login.php';

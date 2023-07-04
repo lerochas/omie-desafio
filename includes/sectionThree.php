@@ -1,1 +1,1 @@
-<img src="img/sectionThree.svg" style="width: 100%">
+<img src="../img/sectionThree.svg" style="width: 100%">
