@@ -7,9 +7,6 @@ require __DIR__.'/vendor/autoload.php';
 use Google\Client as GoogleClient;
 use \App\Session\User as SessionUser;
 
-//VALIDAÇÃO PRINCIPAL DO COOKIE
-
-
 //VERIFICA OS CAMPOS OBRIGATÓRIOS
 if(!isset($_POST['credential']) || !isset($_POST['g_csrf_token'])){
     header('location: index.php');

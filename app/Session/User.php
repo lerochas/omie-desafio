@@ -50,4 +50,15 @@ class User{
         //RETORNA OS DADOS DA SESSÃO
         return $_SESSION['user'] ?? [];
     }
+
+    /**
+     * Método responsável por deslogar o usuário
+     */
+    public static function logout() {
+        //INICIA A SESSÃO DA APLICAÇÃO
+        self::init();
+
+        //REMOVE A SESSÃO DO USUÁRIO
+        unset($_SESSION['user']);
+    }
 }
